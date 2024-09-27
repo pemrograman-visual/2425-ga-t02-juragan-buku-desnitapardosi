@@ -7,27 +7,20 @@ public class T02 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String isbn, judul, penulis, keterangan;
+        String kodeisbn, judul, penulis, penerbit, formatbuku;
+        String keterangan;
+        int tahunterbit, stok;
+        double hargapembelian, minimummargin, rating;
 
-        isbn = input.nextLine();
+        kodeisbn = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
-        int tahunterbit;
-
         tahunterbit = Integer.parseInt(input.nextLine());
-        String penerbit, formatbuku;
-
         penerbit = input.nextLine();
         formatbuku = input.nextLine();
-        double hargapembelian, minimumharga;
-
         hargapembelian = Double.parseDouble(input.nextLine());
-        minimumharga = Double.parseDouble(input.nextLine());
-        int stok;
-
+        minimummargin = Double.parseDouble(input.nextLine());
         stok = Integer.parseInt(input.nextLine());
-        double rating;
-
         rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7) {
             keterangan = "Best Pick";
@@ -41,12 +34,12 @@ public class T02 {
                     if (rating >= 3.0) {
                         keterangan = "Average";
                     } else {
-                        keterangan = "low";
+                        keterangan = "Low";
                     }
                 }
             }
         }
-        System.out.println(isbn + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargapembelian + "|" + minimumharga + "|" + stok + "|" + toFixed(rating,1) + "|" + keterangan);
+        System.out.println(kodeisbn + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + toFixed(rating,1) + "|" + keterangan);
     }
     
     private static String toFixed(double value, int digits) {
