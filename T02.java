@@ -1,6 +1,5 @@
 // 12S24018 - kelvin yohanes putra
 // 12S24043 - desnita pardosi
-
 import java.util.*;
 import java.lang.Math;
 
@@ -33,7 +32,7 @@ public class T02 {
         if (rating >= 4.7) {
             keterangan = "Best Pick";
         } else {
-            if (rating >= 4.7) {
+            if (rating >= 4.5) {
                 keterangan = "Must Read";
             } else {
                 if (rating >= 4.0) {
