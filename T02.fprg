@@ -4,9 +4,9 @@
         <attribute name="name" value="T01"/>
         <attribute name="authors" value="ACER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 11:16:38 AM"/>
+        <attribute name="saved" value="2024-09-27 11:54:54 AM"/>
         <attribute name="created" value="QUNFUjtMQVBUT1AtR1UwSUNSUFU7MjAyNC0wOS0wNjsxMDoxMTo0NyBBTTsyNjQ5"/>
-        <attribute name="edited" value="QUNFUjtMQVBUT1AtR1UwSUNSUFU7MjAyNC0wOS0yNzsxMToxNjozOCBBTTs1OzI3NzA="/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtR1UwSUNSUFU7MjAyNC0wOS0yNzsxMTo1NDo1NCBBTTs2OzI3NzE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -32,7 +32,7 @@
                     <assign variable="keterangan" expression="&quot;Best Pick&quot;"/>
                 </then>
                 <else>
-                    <if expression="rating&gt;=4.7">
+                    <if expression="rating&gt;=4.5">
                         <then>
                             <assign variable="keterangan" expression="&quot;Must Read&quot;"/>
                         </then>
