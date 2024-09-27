@@ -1,11 +1,10 @@
 // 12S24018 - kelvin yohanes putra
 // 12S24043 - desnita pardosi
 
-
 import java.util.*;
 import java.lang.Math;
 
-public class TO2 {
+public class T02 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -55,4 +54,3 @@ public class TO2 {
         return String.format("%." + digits + "f", value);
     }
 }
-
